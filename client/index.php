@@ -23,12 +23,10 @@ switch ($method) {
             ),
 
             "data" => array(
-                'name' => $_GET['id'],
-                'in' => "2013-09-26",
-                'out' => "2013-09-29",
-                'nights' => "3",
-                'client_id' => "1",
-                'reservation_number' => "2345",
+                'name' => 'Mariano',
+                'last_name' => "Gonzalez",
+                'email' => "marianoangonzalez@gmail.com",
+                'phone' => "5492235974955",
 
             ),
         );

@@ -23,14 +23,25 @@ switch ($method) {
             ),
 
             "data" => array(
-                'name' => $_GET['id'],
-                'in' => "2013-09-26",
-                'out' => "2013-09-29",
-                'nights' => "3",
-                'client_id' => "1",
-                'reservation_number' => "2345",
-
+                'restorants' => array(
+                    array(
+                        "name" => 'La Terraza',
+                        "desc" => 'El restaurant La Terraza ofrece un equilibrio de aromas, colores y sabores en sus diversas propuestas gastronomicas,  a la carta, formula Buffet o el muy creativo menu energetico.',
+                        "reservable" => "true",
+                    ),
+                    array(
+                        "name" => 'La Bourgogne',
+                        "desc" => 'Situado frente al mar, en el tercer nivel, el restaurant de lujo del hotel es unico y distinguido. Un lugar para disfrutar al ritmo de las melodias del piano.',
+                        "reservable" => "true",
+                    ),
+                    array(
+                        "name" => 'La Promenade',
+                        "desc" => 'Una carta con opciones de modernos y sabrosos sandwiches para un almuerzo rapido.',
+                        "reservable" => "false",
+                    )
+                ),
             ),
+
         );
         break;
 
